@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    width: 800px;
+    padding: 20px;   
+    
+}
+
+.addForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.addForm button{
+    min-width: 150px;
+    margin-left: 5px;
+
+}
+
+.filter button{
+    width: 100%;
+}
+.filter.filtered button{
+    background-color: rgba(0, 128, 128, 0.884);
+    color: rgb(255, 255, 255);
+}
+

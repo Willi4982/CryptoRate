@@ -1,0 +1,39 @@
+.card{
+    display: grid;
+    grid-gap: 0.5em;
+    border: 2px solid rgb(2, 128, 128);
+    border-radius: 5px;
+    padding: 15px;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+}
+.card.unliked.filtered{
+    display: none;
+}
+.card .value{
+    font-size: 27px;
+    font-weight: 500;
+    margin:10px 0 10px 0;
+}
+
+.card .heartIcon{
+    width: 30px;
+    height: 30px;
+    justify-self: right;
+    align-self: center;
+    margin: -25px -5px -10px 0;
+}
+
+.heartIcon{
+    cursor: pointer;
+}
+#heartIcon{
+    fill: rgba(0, 128, 128, 0.404);
+}
+#heartIcon:hover{
+    fill: rgba(207, 138, 138, 0.404);
+}
+.liked #heartIcon{
+    fill: rgb(221, 0, 0);
+}
