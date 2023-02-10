@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CryptoRate/static/css/main.07fea9c7.css",
+    "main.js": "/CryptoRate/static/js/main.6757c83a.js",
+    "index.html": "/CryptoRate/index.html",
+    "main.07fea9c7.css.map": "/CryptoRate/static/css/main.07fea9c7.css.map",
+    "main.6757c83a.js.map": "/CryptoRate/static/js/main.6757c83a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07fea9c7.css",
+    "static/js/main.6757c83a.js"
+  ]
+}
