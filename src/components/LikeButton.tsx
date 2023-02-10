@@ -1,6 +1,8 @@
-import React from 'react';
+import "../styles/LikeButton.css";
 
-const LikeButton = ({...props}) => {
+type LikeButton = React.ComponentPropsWithoutRef<"svg">
+
+const LikeButton:React.FC<LikeButton> = ({...props}) => {
     return (
         <svg {...props} className="heartIcon" 
             version="1.0" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" 

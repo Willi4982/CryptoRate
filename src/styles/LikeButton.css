@@ -1,0 +1,21 @@
+
+.heartIcon{
+    width: 30px;
+    height: 30px;
+    justify-self: right;
+    align-self: center;
+    margin: -25px -5px -10px 0;
+}
+
+.heartIcon{
+    cursor: pointer;
+}
+#heartIcon{
+    fill: rgba(0, 128, 128, 0.404);
+}
+#heartIcon:hover{
+    fill: rgba(207, 138, 138, 0.404);
+}
+.liked #heartIcon{
+    fill: rgb(221, 0, 0);
+}
